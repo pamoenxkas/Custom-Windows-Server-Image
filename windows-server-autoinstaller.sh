@@ -6,6 +6,7 @@ display_menu() {
     echo "1. Windows Server 2016"
     echo "2. Windows Server 2019"
     echo "3. Windows Server 2022"
+    echo "4. Windows 2010"
     read -p "Enter your choice: " choice
 }
 
@@ -42,6 +43,12 @@ case $choice in
         img_file="windows2022.img"
         iso_link="https://go.microsoft.com/fwlink/p/?LinkID=2195280&clcid=0x409&culture=en-us&country=US"
         iso_file="windows2022.iso"
+        ;;
+    4)
+        # Windows 2010
+        img_file="windows2010.img"
+        iso_link="https://download2389.mediafire.com/thbl49jrdrugRbmJlS2hDJYsGf_tv8ro7OellGev9iKyjDVFX1MbE2npO2I2ui30WOrbDRHy9tL-5DUuTlXPmDDpRJ3mNyf9_2DV142ACfVNBxB5diB9m0lFm1LtNkFBVVtyo52XRSneogUYKY1OFb3o1pgrNMwlPKqULaodHl0/wybrc7vwl56vrv3/WIN10.PRO.20H2.SUPERLITE%2BCOMPACT.U3.X64.GHOSTSPECTRE.%28N-V3%29.iso"
+        iso_file="windows2010.iso"
         ;;
     *)
         echo "Invalid choice. Exiting."
