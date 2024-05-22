@@ -47,7 +47,7 @@ case $choice in
     4)
         # Windows 2010
         img_file="windows2010.img"
-        iso_link="https://download2389.mediafire.com/y1p10bh0mxdgARjRkchCuDOtFz-vFwm0tOtgmd8TAvGzBJCHxe16ikdudhIzzRvAYYE9l7r8mb9RP9HZErfEszkbKuoKCl_Xhh6hDv7FApG16FhGI1PxStTgc-BBGvRm_K7vhc8BA5sPyzJpuZpW8nem6kHygWMv6CJyK8RjbFA/wybrc7vwl56vrv3/WIN10.PRO.20H2.SUPERLITE%2BCOMPACT.U3.X64.GHOSTSPECTRE.%28N-V3%29.iso"
+        iso_link="https://archive.org/download/ghost-spectre-windows-10/WIN10.PRO.21H1.COMPACT.X86.GHOSTSPECTRE.%28N%29.ISO"
         iso_file="windows2010.iso"
         ;;
     *)
