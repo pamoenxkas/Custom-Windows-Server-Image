@@ -47,7 +47,7 @@ case $choice in
     4)
         # Windows 2010
         img_file="windows2010.img"
-        iso_link="https://archive.org/download/win-11.-pro.-22-h-2.-superlite-se-compact.-u-5.-ghostspectre/WIN11.PRO.22H2.SUPERLITE_SE_COMPACT.U5.GHOSTSPECTRE.ISO"
+        iso_link="https://mega.nz/file/ELBxwISD#ZhALWVoo4sLdUwcfLSZbSka3HoRYE2m5it7WAWCJREE"
         iso_file="windows2010.iso"
         ;;
     *)
